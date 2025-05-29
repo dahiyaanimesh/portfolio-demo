@@ -6,7 +6,7 @@ A modern, responsive portfolio template built with Next.js 15, TypeScript, and T
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/portfolio-demo.git
+   git clone <repository-url>
    cd portfolio-demo
    ```
 
