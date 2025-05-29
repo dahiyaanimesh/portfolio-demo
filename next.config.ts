@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
   },
+  // Optional: Change the base path if you want to host on a subdirectory
+  // basePath: '/portfolio-demo',
+  // assetPrefix: '/portfolio-demo/',
 };
 
-export default nextConfig;
+export default nextConfig; 
